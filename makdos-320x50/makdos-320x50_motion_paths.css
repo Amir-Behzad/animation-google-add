@@ -33,91 +33,109 @@
     , {
       "controlPoints": ["-76px", "19px", "-84.31px", "13.85px", "-90.95px", "6.33px", "-98.29px", "-0.14px"], "startTimeMs": 5000, "endTimeMs": 5500, "easing": "linear"
     }
+    , {
+      "controlPoints": ["-98.29px", "-0.14px", "-98.29px", "-0.14px", "-98.29px", "-0.14px", "-98.29px", "-0.14px"], "startTimeMs": 5500, "endTimeMs": 6000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-98.29px", "-0.14px", "-98.29px", "-0.14px", "-98.29px", "-0.14px", "-98.29px", "-0.14px"], "startTimeMs": 6000, "endTimeMs": 6500, "easing": "linear"
+    }
     ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
   }
   ;
-  animation: 5.5s linear 0s 1 normal forwards running gwd-motion-path-bm24-keys-x;
+  animation: 6.5s linear 0s 1 normal forwards running gwd-motion-path-bm24-keys-x;
   transform: translate3d(0px, 0px, 0px);
 }
 @keyframes gwd-motion-path-bm24-keys-x {
   0% {
     transform: translate3d(0px, 0px, 0px);
   }
-  9.09% {
+  7.69% {
     transform: translate3d(0px, 0px, 0px);
   }
-  18.18% {
+  15.38% {
     transform: translate3d(0px, 0px, 0px);
   }
-  27.27% {
+  23.08% {
     transform: translate3d(0px, 0px, 0px);
   }
-  36.36% {
+  30.77% {
     transform: translate3d(0px, 0px, 0px);
     animation-timing-function: cubic-bezier(0.841, -0.5846, 0.6592, -1.2491);
   }
-  45.45% {
+  38.46% {
     transform: translate3d(-0.57px, 0px, 0px);
   }
-  54.55% {
+  46.15% {
     transform: translate3d(-8px, 0px, 0px);
   }
-  63.64% {
+  53.85% {
     transform: translate3d(-23px, 0px, 0px);
   }
-  72.73% {
+  61.54% {
     transform: translate3d(-40px, 0px, 0px);
   }
-  81.82% {
+  69.23% {
     transform: translate3d(-56.29px, 0px, 0px);
   }
-  90.91% {
+  76.92% {
     transform: translate3d(-76px, 0px, 0px);
+  }
+  84.62% {
+    transform: translate3d(-98.29px, 0px, 0px);
+  }
+  92.31% {
+    transform: translate3d(-98.29px, 0px, 0px);
   }
   100% {
     transform: translate3d(-98.29px, 0px, 0px);
   }
 }
 #page1.gwd-play-animation .gwd-motion-path-bm24-anim-y {
-  animation: 5.5s linear 0s 1 normal forwards running gwd-motion-path-bm24-keys-y;
+  animation: 6.5s linear 0s 1 normal forwards running gwd-motion-path-bm24-keys-y;
   transform: translate3d(0px, 0px, 0px);
 }
 @keyframes gwd-motion-path-bm24-keys-y {
   0% {
     transform: translate3d(0px, 0px, 0px);
   }
-  9.09% {
+  7.69% {
     transform: translate3d(0px, 5px, 0px);
   }
-  18.18% {
+  15.38% {
     transform: translate3d(0px, 10px, 0px);
   }
-  27.27% {
+  23.08% {
     transform: translate3d(0px, 15px, 0px);
   }
-  36.36% {
+  30.77% {
     transform: translate3d(0px, 20px, 0px);
   }
-  45.45% {
+  38.46% {
     transform: translate3d(0px, 27px, 0px);
   }
-  54.55% {
+  46.15% {
     transform: translate3d(0px, 32px, 0px);
     animation-timing-function: cubic-bezier(0.2328, 0.4396, 0.5262, 0.8127);
   }
-  63.64% {
+  53.85% {
     transform: translate3d(0px, 35px, 0px);
     animation-timing-function: cubic-bezier(0.4305, -0.3438, 0.8181, 0.7451);
   }
-  72.73% {
+  61.54% {
     transform: translate3d(0px, 33px, 0px);
   }
-  81.82% {
+  69.23% {
     transform: translate3d(0px, 28.43px, 0px);
   }
-  90.91% {
+  76.92% {
     transform: translate3d(0px, 19px, 0px);
     animation-timing-function: cubic-bezier(0.3634, 0.3006, 0.6687, 0.6658);
+  }
+  84.62% {
+    transform: translate3d(0px, -0.14px, 0px);
+  }
+  92.31% {
+    transform: translate3d(0px, -0.14px, 0px);
   }
   100% {
     transform: translate3d(0px, -0.14px, 0px);
