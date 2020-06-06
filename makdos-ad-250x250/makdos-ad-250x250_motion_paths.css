@@ -1,0 +1,112 @@
+#page1.gwd-play-animation .gwd-motion-path-5tuk-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-14px", "-49.5px", "0.5px", "-62px", "26px", "-68.5px", "35px", "-73px"], "startTimeMs": 0, "endTimeMs": 500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["35px", "-73px", "40.63px", "-75.82px", "71px", "-80px", "74.5px", "-80.5px"], "startTimeMs": 500, "endTimeMs": 1000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["74.5px", "-80.5px", "85.16px", "-82.02px", "105.56px", "-84.5px", "115px", "-84.5px"], "startTimeMs": 1000, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["115px", "-84.5px", "126px", "-84.5px", "137.17px", "-83.67px", "155.5px", "-80px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["155.5px", "-80px", "168px", "-77.5px", "178.52px", "-73.77px", "194px", "-72px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["194px", "-72px", "211.5px", "-70px", "226.91px", "-72.79px", "244px", "-76px"], "startTimeMs": 2500, "endTimeMs": 3000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["244px", "-76px", "252px", "-77.5px", "265.11px", "-81.52px", "273.5px", "-84px"], "startTimeMs": 3000, "endTimeMs": 3500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["273.5px", "-84px", "287px", "-88px", "292px", "-89.5px", "304px", "-101px"], "startTimeMs": 3500, "endTimeMs": 4000, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 4s linear 0s 1 normal forwards running gwd-motion-path-5tuk-keys-x;
+  transform: translate3d(-14px, 0px, 0px);
+}
+@keyframes gwd-motion-path-5tuk-keys-x {
+  0% {
+    transform: translate3d(-14px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3554, 0.3088, 0.6693, 0.665);
+  }
+  12.5034% {
+    transform: translate3d(35px, 0px, 0px);
+  }
+  24.9937% {
+    transform: translate3d(74.5px, 0px, 0px);
+  }
+  37.4969% {
+    transform: translate3d(115px, 0px, 0px);
+  }
+  50.0035% {
+    transform: translate3d(155.5px, 0px, 0px);
+  }
+  62.4964% {
+    transform: translate3d(194px, 0px, 0px);
+  }
+  75.0022% {
+    transform: translate3d(244px, 0px, 0px);
+  }
+  87.499% {
+    transform: translate3d(273.5px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3144, 0.3553, 0.6297, 0.7006);
+  }
+  100% {
+    transform: translate3d(304px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-5tuk-anim-y {
+  animation: 4s linear 0s 1 normal forwards running gwd-motion-path-5tuk-keys-y;
+  transform: translate3d(0px, -49.5px, 0px);
+}
+@keyframes gwd-motion-path-5tuk-keys-y {
+  0% {
+    transform: translate3d(0px, -49.5px, 0px);
+    animation-timing-function: cubic-bezier(0.2602, 0.4176, 0.6386, 0.6799);
+  }
+  12.5034% {
+    transform: translate3d(0px, -73px, 0px);
+    animation-timing-function: cubic-bezier(0.2118, 0.4162, 0.6433, 0.7206);
+  }
+  24.9937% {
+    transform: translate3d(0px, -80.5px, 0px);
+    animation-timing-function: cubic-bezier(0.2487, 0.3157, 0.6033, 0.886);
+  }
+  37.4969% {
+    transform: translate3d(0px, -84.5px, 0px);
+    animation-timing-function: cubic-bezier(0.4704, 0.004, 0.788, 0.6573);
+  }
+  50.0035% {
+    transform: translate3d(0px, -80px, 0px);
+    animation-timing-function: cubic-bezier(0.3373, 0.3252, 0.5862, 0.7612);
+  }
+  62.4964% {
+    transform: translate3d(0px, -72px, 0px);
+    animation-timing-function: cubic-bezier(0.4165, -0.6337, 0.8475, 0.704);
+  }
+  75.0022% {
+    transform: translate3d(0px, -76px, 0px);
+  }
+  87.499% {
+    transform: translate3d(0px, -84px, 0px);
+    animation-timing-function: cubic-bezier(0.4577, 0.2329, 0.7177, 0.5856);
+  }
+  100% {
+    transform: translate3d(0px, -101px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}

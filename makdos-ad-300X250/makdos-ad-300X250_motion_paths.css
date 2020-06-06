@@ -1,0 +1,113 @@
+#page1.gwd-play-animation .gwd-motion-path-1cb9-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-1px", "-32.5px", "22.31px", "-44px", "25px", "-47px", "34.5px", "-54px"], "startTimeMs": 0, "endTimeMs": 500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["34.5px", "-54px", "45.13px", "-61.84px", "57px", "-66px", "71.5px", "-70.5px"], "startTimeMs": 500, "endTimeMs": 1000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["71.5px", "-70.5px", "96px", "-78.1px", "111.9px", "-72.65px", "121px", "-72px"], "startTimeMs": 1000, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["121px", "-72px", "128px", "-71.5px", "156.19px", "-67.58px", "173.5px", "-60.5px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["173.5px", "-60.5px", "184.5px", "-56px", "204px", "-49.5px", "222px", "-48px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["222px", "-48px", "239.82px", "-46.51px", "257.84px", "-46.54px", "278.5px", "-52px"], "startTimeMs": 2500, "endTimeMs": 3000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["278.5px", "-52px", "282.87px", "-53.15px", "321.59px", "-68.43px", "325px", "-70px"], "startTimeMs": 3000, "endTimeMs": 3500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["325px", "-70px", "339.08px", "-76.46px", "354.62px", "-86.15px", "365.5px", "-98px"], "startTimeMs": 3500, "endTimeMs": 4000, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 4s linear 0s 1 normal forwards running gwd-motion-path-1cb9-keys-x;
+  transform: translate3d(-1px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1cb9-keys-x {
+  0% {
+    transform: translate3d(-1px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3249, 0.3424, 0.6513, 0.6806);
+  }
+  12.5% {
+    transform: translate3d(34.5px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3518, 0.3138, 0.6741, 0.6598);
+  }
+  25% {
+    transform: translate3d(71.5px, 0px, 0px);
+  }
+  37.5% {
+    transform: translate3d(121px, 0px, 0px);
+  }
+  50% {
+    transform: translate3d(173.5px, 0px, 0px);
+  }
+  62.5% {
+    transform: translate3d(222px, 0px, 0px);
+  }
+  75% {
+    transform: translate3d(278.5px, 0px, 0px);
+  }
+  87.5% {
+    transform: translate3d(325px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3164, 0.3484, 0.6394, 0.6969);
+  }
+  100% {
+    transform: translate3d(365.5px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1cb9-anim-y {
+  animation: 4s linear 0s 1 normal forwards running gwd-motion-path-1cb9-keys-y;
+  transform: translate3d(0px, -32.5px, 0px);
+}
+@keyframes gwd-motion-path-1cb9-keys-y {
+  0% {
+    transform: translate3d(0px, -32.5px, 0px);
+    animation-timing-function: cubic-bezier(0.3661, 0.3062, 0.6981, 0.632);
+  }
+  12.5% {
+    transform: translate3d(0px, -54px, 0px);
+    animation-timing-function: cubic-bezier(0.266, 0.4023, 0.6076, 0.7224);
+  }
+  25% {
+    transform: translate3d(0px, -70.5px, 0px);
+    animation-timing-function: cubic-bezier(0.2736, 2.2579, 0.4292, 3.9967);
+  }
+  37.5% {
+    transform: translate3d(0px, -72px, 0px);
+    animation-timing-function: cubic-bezier(0.4164, 0.1983, 0.7723, 0.6045);
+  }
+  50% {
+    transform: translate3d(0px, -60.5px, 0px);
+    animation-timing-function: cubic-bezier(0.2541, 0.3652, 0.5741, 0.8284);
+  }
+  62.5% {
+    transform: translate3d(0px, -48px, 0px);
+    animation-timing-function: cubic-bezier(0.5455, -0.6989, 0.8662, 0.5482);
+  }
+  75% {
+    transform: translate3d(0px, -52px, 0px);
+  }
+  87.5% {
+    transform: translate3d(0px, -70px, 0px);
+    animation-timing-function: cubic-bezier(0.3793, 0.2819, 0.7123, 0.626);
+  }
+  100% {
+    transform: translate3d(0px, -98px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}

@@ -1,0 +1,134 @@
+#page1.gwd-play-animation .gwd-motion-path-bm24-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["0px", "0px", "0px", "1.67px", "0px", "3.33px", "0px", "5px"], "startTimeMs": 0, "endTimeMs": 499.999, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "5px", "0px", "6.67px", "0px", "8.33px", "0px", "10px"], "startTimeMs": 499.999, "endTimeMs": 999.999, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "10px", "0px", "11.67px", "0px", "13.33px", "0px", "15px"], "startTimeMs": 999.999, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "15px", "0px", "16.67px", "0px", "18.33px", "0px", "20px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "20px", "-0.19px", "22.33px", "1.17px", "25.26px", "-0.57px", "27px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-0.57px", "27px", "-3.14px", "29.57px", "-5.12px", "30.88px", "-8px", "32px"], "startTimeMs": 2500, "endTimeMs": 3000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-8px", "32px", "-13.14px", "34px", "-18px", "34.57px", "-23px", "35px"], "startTimeMs": 3000, "endTimeMs": 3500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-23px", "35px", "-29.57px", "35.58px", "-34.48px", "34.16px", "-40px", "33px"], "startTimeMs": 3500, "endTimeMs": 4000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-40px", "33px", "-45.43px", "31.85px", "-51.07px", "30.64px", "-56.29px", "28.43px"], "startTimeMs": 4000, "endTimeMs": 4500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-56.29px", "28.43px", "-63.71px", "25.29px", "-70px", "22.71px", "-76px", "19px"], "startTimeMs": 4500, "endTimeMs": 5000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-76px", "19px", "-84.31px", "13.85px", "-90.95px", "6.33px", "-98.29px", "-0.14px"], "startTimeMs": 5000, "endTimeMs": 5500, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 5.5s linear 0s 1 normal forwards running gwd-motion-path-bm24-keys-x;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-bm24-keys-x {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  9.09% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  18.18% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  27.27% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  36.36% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.841, -0.5846, 0.6592, -1.2491);
+  }
+  45.45% {
+    transform: translate3d(-0.57px, 0px, 0px);
+  }
+  54.55% {
+    transform: translate3d(-8px, 0px, 0px);
+  }
+  63.64% {
+    transform: translate3d(-23px, 0px, 0px);
+  }
+  72.73% {
+    transform: translate3d(-40px, 0px, 0px);
+  }
+  81.82% {
+    transform: translate3d(-56.29px, 0px, 0px);
+  }
+  90.91% {
+    transform: translate3d(-76px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(-98.29px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-bm24-anim-y {
+  animation: 5.5s linear 0s 1 normal forwards running gwd-motion-path-bm24-keys-y;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-bm24-keys-y {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  9.09% {
+    transform: translate3d(0px, 5px, 0px);
+  }
+  18.18% {
+    transform: translate3d(0px, 10px, 0px);
+  }
+  27.27% {
+    transform: translate3d(0px, 15px, 0px);
+  }
+  36.36% {
+    transform: translate3d(0px, 20px, 0px);
+  }
+  45.45% {
+    transform: translate3d(0px, 27px, 0px);
+  }
+  54.55% {
+    transform: translate3d(0px, 32px, 0px);
+    animation-timing-function: cubic-bezier(0.2328, 0.4396, 0.5262, 0.8127);
+  }
+  63.64% {
+    transform: translate3d(0px, 35px, 0px);
+    animation-timing-function: cubic-bezier(0.4305, -0.3438, 0.8181, 0.7451);
+  }
+  72.73% {
+    transform: translate3d(0px, 33px, 0px);
+  }
+  81.82% {
+    transform: translate3d(0px, 28.43px, 0px);
+  }
+  90.91% {
+    transform: translate3d(0px, 19px, 0px);
+    animation-timing-function: cubic-bezier(0.3634, 0.3006, 0.6687, 0.6658);
+  }
+  100% {
+    transform: translate3d(0px, -0.14px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
